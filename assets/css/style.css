@@ -1,4 +1,6 @@
 /* CSS style file for the Horiseon Website */
+
+/* general styling for the website */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -9,6 +11,20 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
 /* Styling for the top header section of the website which includes website branding and navigation bar */
 header {
     padding: 20px;
@@ -17,20 +33,15 @@ header {
     color: #ffffff;
 }
 
+.seo {
+    color: #d9dcd6;
+} 
+
 nav {
     margin-right: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-h1 .seo {
-    color: #d9dcd6;
-} 
 
 nav ul {
     padding-top: 15px;
@@ -43,14 +54,6 @@ nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
 
 /* Styling for main banner of the website */
 .heroBanner {
@@ -91,8 +94,8 @@ p {
     margin-left: 25px;
 }
 
-/* general styling for aside section */
-.asideBenefitContent{
+/* general styling for aside section content*/
+.asideContent{
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -103,22 +106,23 @@ p {
     background-color: #2589bd;
 }
 
-.asideBenefitContent section{
+.asideContent section{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.asideBenefitContent h3{
+.asideContent h3{
     margin-bottom: 10px;
     text-align: center;
 }
 
-.asideBenefitContent img{
+.asideContent img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* styling for footer section of the website */
 footer {
     padding: 30px;
     clear: both;
