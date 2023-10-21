@@ -59,8 +59,8 @@ p {
     margin-bottom: 25px;
 }
 
-/* Styling for main content section */
-#search-engine-optimization {
+/* general styling for the main content section */
+.articleContent section{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -69,18 +69,18 @@ p {
     color: #ffffff;
 }
 
-#search-engine-optimization img{
+.articleContent h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.articleContent img{
         float: left;
         max-height: 200px;
         margin-right: 25px;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
+#online-reputation-management img {
     float: right;
     margin-left: 25px;
 }
@@ -151,27 +151,6 @@ aside{
 }
 
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
 
 .online-reputation-management img {
     max-height: 200px;
@@ -181,20 +160,6 @@ aside{
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 footer {
     padding: 30px;
