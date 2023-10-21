@@ -11,10 +11,10 @@ This project not only contributed to the optimization of the Horiseon website bu
 The following screenshots provide a basic idea of how the project restructured the HTML layout of the website by using proper semantic HTML elements.
 
 Before Code Optimization
-![Image showing the HTML layout of the website before the project](./assets/images/before-optimization.png?raw=true)
+![Image showing the HTML layout of the website before the project](./assets/images/before-optimization.png?raw=true "Before Optimization")
 
 After Code Optimization
-![Image showing the HTML layout of the website after the project](./assets/images/after-optimization.png?raw=true)
+![Image showing the HTML layout of the website after the project](./assets/images/after-optimization.png?raw=true "After Optimization")
 
 ## Credits
 
