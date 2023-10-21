@@ -59,7 +59,13 @@ p {
     margin-bottom: 25px;
 }
 
-/* general styling for the main content section */
+/* general styling for the main content under the article section */
+.articleContent {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .articleContent section{
     margin-bottom: 20px;
     padding: 50px;
@@ -85,13 +91,8 @@ p {
     margin-left: 25px;
 }
 
-article {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-aside{
+/* general styling for aside section */
+.asideBenefitContent{
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -102,64 +103,21 @@ aside{
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.asideBenefitContent section{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.asideBenefitContent h3{
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.asideBenefitContent img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
 
 footer {
     padding: 30px;
